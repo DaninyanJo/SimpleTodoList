@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple to-do list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="add_todo">
+      <span>Add todo</span>
+      <form onsubmit="return false;">
+        <input required type="text" id="input_addTodo" />
+        <input type="date" name="" id="todo_date" />
+        <input type="color" name="" id="" />
+        <input type="button" value="ADD" id="addTodo" />
+      </form>
+    </div>
+    <div id="edit_todo">
+      <span>Edit todo</span>
+      <form onsubmit="return false;">
+        <input type="text" />
+        <input type="button" value="EDIT" />
+      </form>
+    </div>
+    <header>
+      <div id="navbar"></div>
+      <h1>Simple to-do list</h1>
+      <button id="new_todo">+</button>
+    </header>
+    <div class="wraper">
+      <main>
+        <div id="todoList">
+        
+        </div>
+      </main>
+    </div>
+
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
