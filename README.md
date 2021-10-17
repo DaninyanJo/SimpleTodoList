@@ -1,5 +1,5 @@
 # **Project status**
-- [x] This is a complete item
+- [x] Project in development
 - [ ] Project completed
 
 
